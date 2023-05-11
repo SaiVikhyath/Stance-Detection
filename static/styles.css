@@ -1,0 +1,56 @@
+.header {
+    font-size: 24px;
+    font-weight: bold;
+    color: whitesmoke;
+    background-color: #333;
+    height: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h4-content {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+
+textarea {
+    display: block;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+textarea:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1), 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+  
+
+.button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #0069d9;
+}
+
+.submit-btn:active {
+    background-color: #005cbf;
+}
+
+.bigger {
+    font-size: 18px;
+}
